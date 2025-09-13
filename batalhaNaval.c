@@ -11,7 +11,7 @@ int main() {
     int linha_navio_h = 1, coluna_navio_h = 2; // horizontal
     int linha_navio_v = 0, coluna_navio_v = 4; // vertical
 
-    // Marca os navios na matriz (opcional, só para seguir sugestão)
+    // Marca os navios na matriz
     for (int i = 0; i < TAMANHO_NAVIO; i++) {
         tabuleiro[linha_navio_h][coluna_navio_h + i] = 1; // horizontal
         tabuleiro[linha_navio_v + i][coluna_navio_v] = 1; // vertical
